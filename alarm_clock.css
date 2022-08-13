@@ -1,0 +1,147 @@
+/* BODY */
+body {
+    /*background-color: #c6d916;*/
+    font-family: sans-serif;
+    background-image: url("https://www.goodfreephotos.com/albums/united-states/wisconsin/southern-wisconsin/panoramic-of-wisconsin-river-sunset-at-dekorra.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* header */
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li span{
+    color: orangered;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    /*font-weight: 100;
+    font-size: 0.9rem;*/
+}
+.text-center{
+    text-align: center;
+}
+#image img{
+    height: 70px;
+    width: 70px;
+}
+/* digital time styling */
+#digital-time{
+    align-items: center;
+    color: #e77111;
+    font-size: 7rem;
+    font-weight: 900;
+    margin-left: 12%;
+}
+/* main */
+main{
+    border: 8px solid lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    width: 70%;
+    height: auto;
+    margin:  auto;
+}
+/* styling set alarm box */
+#set-alarm{
+    color: white;
+    margin-top: 5%;
+    width: 100vw;
+    font-size: 1.3rem;
+    margin-left: 2%;
+    height: 100vh;
+}
+#set-alarm form {
+    margin-left: 3%;
+    width: 100%;
+}
+#set-alarm form input{
+    width: 5.5%;
+}
+#set-alarm button{
+    margin-left: 23%;
+    width: 10%;
+    height: 8%;
+    font-size: 1.5rem;
+}
+.box-settings{
+    height: 5%;
+    width: 5%;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+/* set alarm button */
+.submit-button{
+    background-color:#e77111;
+    border: 4px 2px 4px 2px;
+    color: azure;
+    border-radius: 10px;
+    width: 15%;
+    height: 5%;
+}
+#setButton {
+    float:left;
+    background-color:#e77111;
+    margin-top:10px;
+}
+#clearButton {
+    float:right;
+    background-color:#e77111;
+    margin-top:10px;
+}
+
+
+/* hovering set alarm button */
+.submit-button:hover{
+    opacity: 0.9;
+}
+/* styling all alarms display box */
+.all-alarms{
+    margin-top: -50%;
+    width: 80%;
+    margin-left: 10%;
+}
+.all-alarms-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* all alarm name */
+.alarm-name{
+    color: azure;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+/* delete all button */
+#delete-all{
+    background-color: #d35f1b;
+    border: 4px azure;
+    border-radius: 8px;
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 60%;
+}
+#delete-all:hover{
+    opacity: 0.8;
+    font-weight: 500;
+}
+/* display box */
+#print-box{
+    margin-top: -1%;
+    font-size: 1.5rem;
+    width: 100%;   
+}
